@@ -5,14 +5,13 @@
  */
 package org.e4x.exampattern1.DAO;
 
+import java.io.Serializable;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.validation.constraints.NotBlank;
 import lombok.Data;
-import org.springframework.data.repository.CrudRepository;
-import org.springframework.stereotype.Repository;
 
 /**
  *
@@ -20,7 +19,7 @@ import org.springframework.stereotype.Repository;
  */
 @Entity
 @Data
-public class User {
+public class User implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
