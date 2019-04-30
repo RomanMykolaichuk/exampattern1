@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Getting Started: Serving Web Content</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+    <body>
+        <h1>File 2 template</h1>
+        <p th:text="'File is, ' + ${name} + '.txt!'" />
+        <table>
+            <tbody>
+                <tr th:each="x: ${content}">
+                    <td th:text="${x}">1</td>
+                   
+                </tr>
+            </tbody>
+        </table>
+        
+        <p th:text="'Questions count is '+${size}"/>
+        <p>The end!</p>
+        <a href="/">Return</a>
+
+    </body>
+</html>
