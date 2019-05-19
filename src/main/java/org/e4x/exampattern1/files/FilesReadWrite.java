@@ -25,7 +25,7 @@ public class FilesReadWrite {
     }
 
     public FilesReadWrite(String fileName) {
-        this.setFileName(fileName);
+        this.fileName=fileName;
     }
 
     public String readFile() {
