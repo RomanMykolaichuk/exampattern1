@@ -1,0 +1,4 @@
+1;Potato;1.3;vegetables;VVV Ltd;kg;
+2;Tomato;1.7;vegetables;VV Ltd;kg;
+3;Pinapple;2;fruits;Africa Nice;pcs;
+4;Banana;1;fruits;Africa Nice;kg
